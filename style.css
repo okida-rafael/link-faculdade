@@ -12,25 +12,30 @@ a:hover{
 }
 
 header{
-    margin: 10px auto;
+    width: 100%;
+    margin: 0 auto 10px;
     text-align: center;
     background-color: rgb(32, 35, 119);
     text-shadow: 1px 1px 1px rgb(226, 0, 26);
     color: #fff;
     
 }
+main{
+    margin: 5px;
+}
 
 .container{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    width: 800px;
+    max-width: 800px;
     margin: 10px auto;
 }
 
 .card{
     padding: 15px;
     margin: 5px;
+    width: 100%;
 
 }
 .card p{
@@ -48,7 +53,8 @@ header{
 
 .download{
     margin: 10px auto;
-    width: 800px;
+    max-width: 800px;
+    width: 100vw;
 }
 .arquivos{
     margin: 5px;
@@ -60,14 +66,17 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 800px;
+    max-width: 800px;
     margin: 10px auto;
+    flex-wrap: wrap;
 
 }
 .redes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
 }
 .redes a{
     border-radius: 50%;
