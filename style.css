@@ -5,6 +5,9 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+body{
+    width: 100vw;
+}
 a:hover{
     background-color: rgb(226, 0, 26);
     color: #fff;
@@ -17,8 +20,7 @@ header{
     text-align: center;
     background-color: rgb(32, 35, 119);
     text-shadow: 1px 1px 1px rgb(226, 0, 26);
-    color: #fff;
-    
+    color: #fff;   
 }
 main{
     margin: 5px;
