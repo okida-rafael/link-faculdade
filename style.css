@@ -83,3 +83,7 @@ footer{
 .redes a{
     border-radius: 50%;
 }
+
+iframe {
+    width: 80%;
+}
