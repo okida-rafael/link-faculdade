@@ -8,10 +8,9 @@
 body{
     width: 100vw;
 }
-a:hover{
+.card a:hover, .download a:hover{
     background-color: rgb(226, 0, 26);
     color: #fff;
-
 }
 
 header{
@@ -68,9 +67,10 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    max-width: 800px;
     margin: 10px auto;
     flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(233, 233, 233, 0.897);
 
 }
 .redes{
@@ -86,4 +86,16 @@ footer{
 
 iframe {
     width: 80%;
+}
+.contatos {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.contatos p {
+    margin: 10px;
+}
+
+footer a:hover {
+    scale: 1.3;
 }
